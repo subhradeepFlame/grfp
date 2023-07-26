@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="When pulling in a template it's not setting the time zone.">
+ <listeners>
+		<listener class-name="com.green.rfp.qa.utility.CustomReporterListener"/>
+		<listener class-name="com.green.rfp.qa.utility.ExtentTestNGIReporterListener"/>
+ </listeners> 
+  <test  name="Verify Time zone When pulling in a template it's not setting the time zone.">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="selenium.url" value="https://uat.thegreenrfp.com/myaccount/customer-templates" />
+  <classes>
+      <class name="com.green.rfp.qa.template.testcases.TemplatePulling"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

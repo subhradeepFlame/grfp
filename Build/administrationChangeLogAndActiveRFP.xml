@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Administration Change Log Activity Tab">
+<!--  <listeners>
+		<listener class-name="com.green.rfp.qa.utility.CustomReporterListener"/>
+		<listener class-name="com.green.rfp.qa.utility.ExtentTestNGIReporterListener"/>
+ </listeners>  -->
+  <test  name="Automate Change Administration and Active RFP">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="selenium.url" value="https://uat.thegreenrfp.com/myaccount/administration"/>
+  <classes>
+      <class name="com.green.rfp.qa.administatrion.testcases.ChangeLogAndActiveRFPTab"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

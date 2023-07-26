@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Final Bugs Suite">
+ 
+
+ <suite-files>
+ <suite-file path="Build\Bugs\delegatedRfp.xml"></suite-file>
+ </suite-files>
+  <suite-files>
+ <suite-file path="Build\Bugs\notificationMenu.xml"></suite-file>
+ </suite-files>
+  <suite-files>
+ <suite-file path="Build\Bugs\timezone.xml"></suite-file>
+ </suite-files>
+  <suite-files>
+ <suite-file path="Build\Bugs\useraccount.xml"></suite-file>
+ </suite-files> 
+  <suite-files>
+ <suite-file path="Build\Bugs\NoInlineAddendums.xml"></suite-file>
+ </suite-files>
+ 
+  <suite-files>
+ <suite-file path="Build\Bugs\StremlineRatingProcess.xml"></suite-file>
+ </suite-files>
+ 
+
+</suite> <!-- Suite -->

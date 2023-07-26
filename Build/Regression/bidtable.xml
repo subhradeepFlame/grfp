@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="bidtable testcases ">
+  <test  name="bistable testcases">
+ 	 <classes>
+ 	 
+      <class name="com.green.rfp.qa.bidtable.TCBid001"/> 
+      <class name="com.green.rfp.qa.bidtable.TCBid002"/> 
+      <class name="com.green.rfp.qa.bidtable.TCBid003"/> 
+      <class name="com.green.rfp.qa.bidtable.TCBid004"/> 
+      <class name="com.green.rfp.qa.bidtable.TCBid007"/> 
+      
+    </classes>
+    
+    
+  </test> 
+</suite>

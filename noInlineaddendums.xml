@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name=" Edit user account abd verify Account getting changed or not">
+ <listeners>
+		<listener class-name="com.green.rfp.qa.utility.CustomReporterListener"/>	
+		<listener class-name="com.green.rfp.qa.utility.ExtentTestNGIReporterListener"/>				
+ </listeners> 
+  <test  name="Edit user and verify its account name">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="selenium.url" value="https://uat.thegreenrfp.com/myaccount/administration"/>
+  <classes>
+      <class name="com.green.rfp.qa.bugs.testcases.NoInlineAddendums"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

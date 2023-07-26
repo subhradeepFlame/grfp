@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Bugs reported in trello needs automation. ">
+
+  
+  <test  name="Trello cards">
+  <classes>
+      <class name="com.green.rfp.qa.trelloCards.TC011"/>
+      <class name="com.green.rfp.qa.trelloCards.TC022"/>
+      <class name="com.green.rfp.qa.trelloCards.TC025"/>
+      <class name="com.green.rfp.qa.trelloCards.TC026"/>
+
+    </classes>
+  </test>
+    
+  
+  
+</suite> <!-- Suite -->

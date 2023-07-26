@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Authentication">
+ <listeners>
+		<listener class-name="com.green.rfp.qa.utility.CustomReporterListener"/>
+		<listener class-name="com.green.rfp.qa.utility.ExtentTestNGIReporterListener"/>
+ </listeners> 
+  <test  name="Authentication  test cases">
+  <parameter name="browser" value="chrome"/>
+<!--   <parameter name="selenium.url" value="https:https://uat.thegreenrfp.com/login" />
+ -->
+   <classes>
+ <class name="com.green.rfp.qa.login.testcases.LoginPageTest"/>
+ 
+      <class name="com.green.rfp.qa.login.testcases.LoginDataDriven"/>
+      
+  <class name="com.green.rfp.qa.forgotpassword.testcases.ForgotPasswordTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Report Flow Module">
+ <listeners>
+		<listener class-name="com.green.rfp.qa.utility.CustomReporterListener"/>
+		<listener class-name="com.green.rfp.qa.utility.ExtentTestNGIReporterListener"/>
+ </listeners> 
+  <test  name="Report flow test cases">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="selenium.url" value="https://uat.thegreenrfp.com/myaccount/reports"/>
+  <classes>
+      <class name="com.green.rfp.qa.rfp.testcases.ReportFlow"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

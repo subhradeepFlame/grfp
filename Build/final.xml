@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Final Suite">
+
+	<suite-files>
+		<suite-file path="Build\bidtable_1.xml"></suite-file>
+	</suite-files>
+
+	<suite-files>
+		<suite-file path="Build\login.xml"></suite-file>
+	</suite-files>
+
+
+	<suite-files>
+		<suite-file path="Build\loginDataDriven.xml"></suite-file>
+	</suite-files>
+
+	<suite-files>
+		<suite-file path="Build\forgotpassword.xml"></suite-file>
+	</suite-files>
+
+
+	<suite-files>
+		<suite-file path="Build\MyProfile.xml"></suite-file>
+	</suite-files>
+
+	<suite-files>
+		<suite-file path="Build\MyProfileUploadPhoto.xml"></suite-file>
+	</suite-files>
+
+
+	<suite-files>
+		<suite-file path="Build\administration.xml"></suite-file>
+	</suite-files>
+
+	<suite-files>
+		<suite-file
+			path="Build\administrationChangeLogAndActiveRFP.xml"></suite-file>
+	</suite-files>
+
+
+	<suite-files>
+		<suite-file path="Build\administrationReportTab.xml"></suite-file>
+	</suite-files>
+
+	<suite-files>
+		<suite-file path="Build\administrationSearchUser.xml"></suite-file>
+	</suite-files>
+
+	<suite-files>
+		<suite-file path="Build\newUserRegistration.xml"></suite-file>
+	</suite-files>
+
+	<suite-files>
+		<suite-file path="Build\newVendorRegistration.xml"></suite-file>
+	</suite-files>
+
+
+	<suite-files>
+		<suite-file path="Build\templatepositiveflow.xml"></suite-file>
+	</suite-files>
+
+
+	<suite-files>
+		<suite-file path="Build\templatenegativeflow.xml"></suite-file>
+	</suite-files>
+
+	<suite-files>
+		<suite-file path="Build\templateOperation.xml"></suite-file>
+	</suite-files>
+
+
+	<suite-files>
+		<suite-file path="Build\createRFP.xml"></suite-file>
+	</suite-files>
+
+	<suite-files>
+		<suite-file path="Build\deleteRFP.xml"></suite-file>
+	</suite-files>
+
+	<suite-files>
+		<suite-file path="Build\createRfpUsingKisTemplate.xml"></suite-file>
+	</suite-files>
+
+	<suite-files>
+		<suite-file path="Build\createRfpUsingCompanyTemplate.xml"></suite-file>
+	</suite-files>
+
+	<!-- <suite-files> <suite-file path="Build\createRfpUSingGrfpTemplate.xml"></suite-file> 
+		</suite-files> -->
+
+	<suite-files>
+		<suite-file
+			path="Build\verifyRFPApproverNotificationToApproveBeforeSMEHasCompletedTheirWork.xml"></suite-file>
+	</suite-files>
+
+	<suite-files>
+		<suite-file path="Build\rfpOperation.xml"></suite-file>
+	</suite-files>
+
+
+	<suite-files>
+		<suite-file path="Build\vendorFlow.xml"></suite-file>
+	</suite-files>
+
+	<suite-files>
+		<suite-file path="Build\reportFlow.xml"></suite-file>
+	</suite-files>
+
+	<suite-files>
+		<suite-file path="Build\reportsValueIndicatorGraphFlow.xml"></suite-file>
+	</suite-files>
+
+	<suite-files>
+		<suite-file path="Build\reportsCapExOpExGraphFlow.xml"></suite-file>
+	</suite-files>
+
+	<suite-files>
+		<suite-file path="Build\costPerRequirementGraphFlow.xml"></suite-file>
+	</suite-files>
+
+	<suite-files>
+		<suite-file path="Build\amendment.xml"></suite-file>
+	</suite-files>
+
+	<suite-files>
+		<suite-file path="Build\menualbidFunctionality.xml"></suite-file>
+	</suite-files>
+
+	<suite-files>
+		<suite-file path="Build\templatePulling.xml"></suite-file>
+	</suite-files>
+
+	<suite-files>
+		<suite-file path="Build\templateAttachment.xml"></suite-file>
+	</suite-files>
+
+	<suite-files>
+		<suite-file path="Build\deleteSection.xml"></suite-file>
+	</suite-files>
+
+	<suite-files>
+		<suite-file path="Build\streamliningRating.xml"></suite-file>
+	</suite-files>
+
+	<suite-files>
+		<suite-file
+			path="Build\vendorRfpOwnerCanGoHIsAccountAndChnagePermission.xml"></suite-file>
+	</suite-files>
+
+	<suite-files>
+		<suite-file path="Build\verifyBrokenLinks.xml"></suite-file>
+	</suite-files>
+
+	<suite-files>
+		<suite-file path="Build\trelloCards.xml"></suite-file>
+	</suite-files>
+
+	<suite-files>
+		<suite-file path="Build\bidtable_2.xml"></suite-file>
+	</suite-files>
+
+</suite> <!-- Suite -->

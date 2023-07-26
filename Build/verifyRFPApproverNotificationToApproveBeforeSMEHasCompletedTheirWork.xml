@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="verify RFP Approver Notification To Approve Before SME Has Completed Their Work">
+ <listeners>
+		<listener class-name="com.green.rfp.qa.utility.CustomReporterListener"/>
+		<listener class-name="com.green.rfp.qa.utility.ExtentTestNGIReporterListener"/>
+ </listeners> 
+  <test  name="Rfp Delete , Download and send on mail">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="selenium.url" value="https://uat.thegreenrfp.com/myaccount/rfps"/>
+  <classes>
+      <class name="com.green.rfp.qa.rfp.testcases.VerifyRFPApproverNotification"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

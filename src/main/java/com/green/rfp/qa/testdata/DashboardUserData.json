@@ -1,0 +1,149 @@
+[
+ {
+   "User type": "Customer Admin",
+   "Company": "QA Automation",
+   "User": "QA Admin",
+   "Email": "qa_ad@mailinator.com",
+   "password": "Password@123"
+ },
+ {
+   "User type": "Customer RFP owner 1",
+   "Company": "QA Automation",
+   "User": "QA RFPowner1",
+   "Email": "qa_rfpow1@mailinator.com",
+   "password": "Password@123"
+ },
+ {
+   "User type": "Customer RFP owner 2",
+   "Company": "QA Automation",
+   "User": "QA RFPowner2",
+   "Email": "qa_rfpow2@mailinator.com",
+   "password": "Password@123"
+ },
+ {
+   "User type": "Customer SME 1",
+   "Company": "QA Automation",
+   "User": "QA csme1",
+   "Email": "qa_csme1@mailinator.com",
+   "password": "Password@123"
+ },
+ {
+   "User type": "Customer SME 2",
+   "Company": "QA Automation",
+   "User": "QA csme2",
+   "Email": "qa_csme2@mailinator.com",
+   "password": "Password@123"
+ },
+ {
+   "User type": "Customer Approver 1",
+   "Company": "QA Automation",
+   "User": "cApprover1",
+   "Email": "qa_approver1@mailinator.com",
+   "password": "Password@123"
+ },
+ {
+   "User type": "Customer Approver 2",
+   "Company": "QA Automation",
+   "User": "cApprover2",
+   "Email": "qa_approver2@mailinator.com",
+   "password": "Password@123"
+ },
+ {
+   "User type": "Customer Evaluator1",
+   "Company": "QA Automation",
+   "User": "evaluator 1",
+   "Email": "qaevalu1@mailinator.com",
+   "password": "Password@123"
+ },
+ {
+   "User type": "Customer Evaluator2",
+   "Company": "QA Automation",
+   "User": "evaluator 2",
+   "Email": "qaevalu2@mailinator.com",
+   "password": "Password@123"
+ },
+ {
+   "User type": "Customer Evaluator3",
+   "Company": "QA Automation",
+   "User": "evaluator 3",
+   "Email": "qaevalu3@mailinator.com",
+   "password": "Password@123"
+ },
+ {
+   "User type": "Vendor3",
+   "Company": "QA Vendor 3",
+   "User": "vendor 3",
+   "Email": "qa-vendor3@mailinator.com",
+   "password": "Password@123"
+ },
+ {
+   "User type": "Vendor3 Sme1",
+   "Company": "QA Vendor 3",
+   "User": "v3Sme 1",
+   "Email": "qav3sme1@mailinator.com",
+   "password": "Password@123"
+ },
+ {
+   "User type": "Vendor3 Sme2",
+   "Company": "QA Vendor 3",
+   "User": "v3Sme 2",
+   "Email": "qav3sme2@mailinator.com",
+   "password": "Password@123"
+ },
+ {
+   "User type": "Vendor3 Approver1",
+   "Company": "QA Vendor 3",
+   "User": "v3Approver 1",
+   "Email": "qav3approver1@mailinator.com",
+   "password": "Password@123"
+ },
+ {
+   "User type": "Vendor3 Approver2",
+   "Company": "QA Vendor 3",
+   "User": "v3Approver 2",
+   "Email": "qav3approver2@mailinator.com",
+   "password": "Password@123"
+ },
+ {
+   "User type": "Vendor2",
+   "Company": "QA Vendor 2",
+   "User": "vendor 2",
+   "Email": "qa-Vendor2@mailinator.com",
+   "password": "Password@123"
+ },
+ {
+   "User type": "Vendor2 Sme1",
+   "Company": "QA Vendor 2",
+   "User": "v2Sme 1",
+   "Email": "qav2sme1@mailinator.com",
+   "password": "Password@123"
+ },
+ {
+   "User type": "Vendor2 Sme2",
+   "Company": "QA Vendor 2",
+   "User": "v2Sme 2",
+   "Email": "qav2sme2@mailinator.com",
+   "password": "Password@123"
+ },
+ {
+   "User type": "Vendor2 Approver1",
+   "Company": "QA Vendor 2",
+   "User": "v2Approver 1",
+   "Email": "qav2approver1@mailinator.com",
+   "password": "Password@123"
+ },
+ {
+   "User type": "Vendor2 Approver2",
+   "Company": "QA Vendor 2",
+   "User": "v2Approver 2",
+   "Email": "qav2approver2@mailinator.com",
+   "password": "Password@123"
+ },
+ {
+   "User type": "Narola",
+   "Company": "Narola Infotech",
+   "User": "QaNarola RFP",
+   "Email": "",
+   "password": ""
+ }
+]

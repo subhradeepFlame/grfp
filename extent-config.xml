@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+	<configuration>
+		<theme>standard</theme>
+		<encoding>UTF-8</encoding>
+		<protocol>http</protocol>
+		<documentTitle>Green RFP - Automation Testing Report</documentTitle>
+		<reportName>
+		 <![CDATA[
+               <img class="main-logo" src='https://www.codeclouds.com/wp-content/themes/CodeClouds/images/codeclouds_colour.svg' /> 
+               <img class="main-logo" src='https://dashboard.thegreenrfp.com/assets/images/logos/rfp-icon.png' /> 
+               <img class="main-logo" src='https://dashboard.thegreenrfp.com/assets/images/logos/rfp-text.png' /> 
+            ]]>
+		</reportName>
+		<reportHeadline>Automation Testing Report</reportHeadline>
+		<testViewChartLocation>bottom</testViewChartLocation>
+		<scripts>
+<![CDATA[
+$(document).ready(function()
+{
+	$('.logo-container.blue.darken-2').remove();
+	$('nav').css({
+		'background':'#ededed', 
+		'color': '#1091d0'
+	})
+	$('ul.right.hide-on-med-and-down.nav-right').remove();
+	$('meta[name=description]').attr('content', 'Automation Test Report Cstomised by Subhasish Deb shows test and step summary along with dashboards, system and environment details for quick analysis of your tests.');
+<!-- 	$('.collection-item').append('<span class="test-desc-left">'+$('.test-desc').html()+'</span>'); -->
+});
+
+]]>
+		</scripts>
+		<!-- custom styles -->
+		<!--.test-steps th {width: 43%;} -->
+		<styles>
+            <![CDATA[
+                .main-logo{height: 40px;margin-top: 4px;margin-right: 15px;}
+                .report-name{display: inline-flex;padding-left: 72px;}
+				span.test-desc-left {font-weight: 100;padding-left: inherit;color: #63625D;word-break: break-word;}
+    			.step-details {font-size: 13px;}
+    			.test-attributes {display: none;}
+				.test-steps th:nth-child(3) {width: 130px;}
+				span.exception-name {word-break: break-word;}
+				ul,td {word-break: break-word;}
+				span.report-headline {float: left;font-style: initial;font-family: initial;font-size: 20px;}
+				li.collection-item.test.displayed {padding-left: 10px;}
+				li.collection-item.test.displayed.active { padding: 15px;padding-right: 5px;font-size: medium;}
+ 				.test-name, .category-name {display: inline-block;word-break: break-word;}           
+ 				.exception-head, .test-name {width: 83% !important;}		
+ 				li.test.displayed.pass {background-color: #9BED97;}
+ 			   .label.outline.success, .label.outline.pass {color: #247A48;}
+				li.collection-item.test.displayed.fail {background: #F9C4A9;}
+				h5.details-name {word-break: break-word;padding: 5px;padding-top: 10px;}
+				.details-name {word-break: break-word;position: sticky;top: 0;background: white;z-index: 999;padding-bottom: inherit;padding-top: inherit;border-bottom: 1px solid #dddddd;margin: 0px;}
+				.test-desc {word-break: break-word;position: sticky;background: beige;padding-inline-end: 3px;border-bottom: 1px solid #dddddd63;width: fit-content;}
+				.card.suite-total-time-overall {display: none;}
+				.col.l2.m4.s12 {width: 33.33%;}
+				h5 {margin: inherit;}
+				.filters {border-bottom: 1px solid #eee;padding: 10px;position: sticky;top: 0;z-index: 999;}
+				pre { max-height: 375px;}
+				.test-steps, .cat-tests {margin-top: 0px;}
+				.card-panel.no-padding-h.no-padding-v.no-margin-v {height: calc(100vh - 163px);overflow-y: auto;}
+     	        .card-panel.details-view {padding-top: unset;}
+     	        span.test-status.label {margin: auto;}
+				::-webkit-scrollbar {width: 12px;}
+           
+           
+            ]]>
+		</styles>
+	</configuration>
+</extentreports>
+

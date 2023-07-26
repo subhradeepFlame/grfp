@@ -1,0 +1,13 @@
+answer_type,question,answer,correct,weight
+Free Form,Demo How would you approach to the scenario ?,1,0,High
+Free Form,Demo Didn't you find any other question ?,1,0,High
+Free Form,Dummy How would you approach to the scenario ?,1,0,High
+Free Form,Demo  Why would you do that ?,1,0,High
+Yes/No,Do you know about trivial dependency ?,1,1,High
+Yes/No,Do you know about functional dependency ?,1,1,High
+Free Form,What is varchar ?,0,0,High
+Free Form,What is normalization ?,0,0,Medium
+Yes/No,Do you know transitive dependency ?,0,1,Critical
+Yes/No,Can you explain 2NF and BCNF ?,1,1,Low
+Yes/No,Demo-Can you explain 2NF and BCNF ?,1,1,Low
+Yes/No,Dummy-Can you explain 2NF and BCNF ?,1,1,Low

@@ -1,0 +1,10 @@
+/target/
+/test-output/
+/Report/
+/ReportNew/
+/ScreenShots/
+/log/
+/*.log
+/downnloads/
+/.metadata/
+/RemoteSystemsTempFiles/

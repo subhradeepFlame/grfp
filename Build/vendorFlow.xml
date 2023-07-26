@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Vendor Flow Module">
+  <listeners>
+		<listener class-name="com.green.rfp.qa.utility.CustomReporterListener"/>
+		<listener class-name="com.green.rfp.qa.utility.ExtentTestNGIReporterListener"/>
+		<listener class-name="com.green.rfp.qa.utility.TestListeners"/>
+ </listeners>
+  <test  name="Create RFP Using Vendor Flow">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="selenium.url" value="https://uat.thegreenrfp.com/myaccount/rfps"/>
+  <classes>
+      <class name="com.green.rfp.qa.rfp.testcases.VendorRFPFlow"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

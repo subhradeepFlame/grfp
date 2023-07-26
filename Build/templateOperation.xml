@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Verify Template Operation Test Cases">
+ <listeners>
+		<listener class-name="com.green.rfp.qa.utility.CustomReporterListener"/>
+		<listener class-name="com.green.rfp.qa.utility.ExtentTestNGIReporterListener"/>
+ </listeners> 
+  <test  name="Detete , Duplicate ,Download and Send Template on mail">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="selenium.url" value="https://uat.thegreenrfp.com/myaccount/customer-templates" />
+  <classes>
+      <class name="com.green.rfp.qa.template.testcases.TemplateOperation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

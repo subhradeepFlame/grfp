@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Template Negative Flow Test Cases">
+ 
+  <test  name="Create template using negative  flow">
+  <classes>  
+      <class name="com.green.rfp.qa.template.testcases.TemplateNegative01"/>
+      <class name="com.green.rfp.qa.template.testcases.TemplateNegative02"/>
+      <class name="com.green.rfp.qa.template.testcases.TemplateNegative03"/>
+      <class name="com.green.rfp.qa.template.testcases.TemplateNegative04"/>
+      <class name="com.green.rfp.qa.template.testcases.TemplateNegative05"/>
+      <class name="com.green.rfp.qa.template.testcases.TemplateNegative06"/>
+      <class name="com.green.rfp.qa.template.testcases.TemplateNegative07"/>
+      <class name="com.green.rfp.qa.template.testcases.TemplateNegative08"/>
+      <class name="com.green.rfp.qa.template.testcases.TemplateNegative09"/>
+      <class name="com.green.rfp.qa.template.testcases.TemplateNegative10"/>
+      <class name="com.green.rfp.qa.template.testcases.TemplateNegative11"/>
+      <class name="com.green.rfp.qa.template.testcases.TemplateNegative12"/>
+      <class name="com.green.rfp.qa.template.testcases.TemplateNegative13"/>
+      <class name="com.green.rfp.qa.template.testcases.TemplateNegative14"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Template Negative Flow Test Cases">
+	
+	<test name="Create template using negative  flow">
+<classes> <class name="com.green.rfp.qa.template.testcases.TemplateNegativeFlowTestCases"/> 
+		</classes>  
+	</test>
+</suite>  -->

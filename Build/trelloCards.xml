@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Bugs reported in trello needs automation. ">
+  <test  name="Trello Cards">
+ 	 <classes>
+ 	      
+
+ 	       
+ 	     
+ 	 
+   	 <class name="com.green.rfp.qa.trelloCards.TC001"/> 
+      <class name="com.green.rfp.qa.trelloCards.TC002"/> 
+      <class name="com.green.rfp.qa.trelloCards.TC004"/> 
+      <class name="com.green.rfp.qa.trelloCards.TC005"/> 
+      <class name="com.green.rfp.qa.trelloCards.TC006"/> 
+      <class name="com.green.rfp.qa.trelloCards.TC007"/> 
+      <class name="com.green.rfp.qa.trelloCards.TC009"/>
+      <class name="com.green.rfp.qa.trelloCards.TC010"/>
+      <class name="com.green.rfp.qa.trelloCards.TC011"/>
+      <class name="com.green.rfp.qa.trelloCards.TC012"/>
+      <class name="com.green.rfp.qa.trelloCards.TC013"/>
+      <class name="com.green.rfp.qa.trelloCards.TC014"/>
+      <class name="com.green.rfp.qa.trelloCards.TC015"/>
+      <class name="com.green.rfp.qa.trelloCards.TC016"/>
+      <class name="com.green.rfp.qa.trelloCards.TC017"/>
+      <class name="com.green.rfp.qa.trelloCards.TC018"/>
+      <class name="com.green.rfp.qa.trelloCards.TC019"/>
+      <class name="com.green.rfp.qa.trelloCards.TC020"/>
+      <class name="com.green.rfp.qa.trelloCards.TC021"/>
+      <class name="com.green.rfp.qa.trelloCards.TC022"/>
+      <class name="com.green.rfp.qa.trelloCards.TC023"/>
+      <class name="com.green.rfp.qa.trelloCards.TC024"/>
+      <class name="com.green.rfp.qa.trelloCards.TC025"/>
+      <class name="com.green.rfp.qa.trelloCards.TC026"/>
+      <class name="com.green.rfp.qa.trelloCards.TC027"/>
+      <class name="com.green.rfp.qa.trelloCards.TC028"/>
+      <class name="com.green.rfp.qa.trelloCards.TC029"/>
+      <class name="com.green.rfp.qa.trelloCards.TC030"/>
+      <class name="com.green.rfp.qa.trelloCards.TC031"/>
+      <class name="com.green.rfp.qa.trelloCards.TC033"/>
+      <class name="com.green.rfp.qa.trelloCards.TC034"/>
+      <class name="com.green.rfp.qa.trelloCards.TC035"/>
+      <class name="com.green.rfp.qa.trelloCards.TC008"/> 
+      
+
+      
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

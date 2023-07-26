@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Final Suite">
+ 
+  <test  name="Create template using negative  flow">
+  <classes>
+      <class name="com.green.rfp.qa.forgotpassword.testcases.ForgotPasswordTest"/>
+      <class name="com.green.rfp.qa.administatrion.testcases.ChangeLogAndActiveRFPTab"/>
+      <class name="com.green.rfp.qa.rfp.testcases.Amendment"/>
+      <class name="com.green.rfp.qa.trelloCards.TC001"/>
+      <class name="com.green.rfp.qa.trelloCards.TC006"/>
+      <class name="com.green.rfp.qa.trelloCards.TC007"/>
+      <class name="com.green.rfp.qa.trelloCards.TC011"/>
+      <class name="com.green.rfp.qa.trelloCards.TC034"/>
+      <class name="com.green.rfp.qa.bidtable.TCBid004"/>
+    </classes>
+  </test> <!-- Test -->
+ 
+</suite> <!-- Suite -->
